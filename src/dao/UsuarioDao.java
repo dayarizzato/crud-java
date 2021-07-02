@@ -12,8 +12,9 @@ import java.sql.SQLException;
 import model.Usuario;
 
 /**
- *
+ * Classe UsuarioDAO
  * @author Dayana
+ * @since 02/07/2021
  */
 public class UsuarioDao {
     
