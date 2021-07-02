@@ -116,7 +116,7 @@ public class CadastroProduto extends javax.swing.JFrame {
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setTitle("..::: Cadastro de Produtos :::..");
 
         jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder("Dados do Produto"));
