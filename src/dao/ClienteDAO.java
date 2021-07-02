@@ -28,6 +28,11 @@ public class ClienteDAO {
         this.conexao = conexao;
     }
     
+    /**
+     * Método para inserir clientes
+     * @param cliente
+     * @throws SQLException 
+     */
     public void inserirCliente(Cliente cliente) throws SQLException{
      
         String sql = "insert into cliente "
@@ -64,6 +69,7 @@ public class ClienteDAO {
         
         return resultado.getInt("resultado") > 0; // pode virar uma condição booleana
     } 
+    
 
     public boolean verificarCpfExistente(Cliente c) throws SQLException{
         String sql = "SELECT COUNT(*) AS resultado FROM cliente WHERE cpf = ?";
