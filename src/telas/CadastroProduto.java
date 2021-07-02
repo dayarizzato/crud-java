@@ -364,6 +364,7 @@ public class CadastroProduto extends javax.swing.JFrame {
                 dispose();
             }
         } catch (SQLException ex) {
+            ex.printStackTrace();
             Logger.getLogger(CadastroProduto.class.getName()).log(Level.SEVERE, null, ex);
 
         }
